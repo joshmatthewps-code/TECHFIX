@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#000000">
+<title>TechFix Desktop</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@800&family=Press+Start+2P&display=swap">
+<link rel="stylesheet" href="css/desk.css">
+<script src="js/desk-init.js"></script>
+</head>
+<body>
+<div id="stage"><div id="desk">
+ <div class="ic" style="left:2%;top:4%" data-app="settings"><big>⚙️</big>Settings</div>
+ <div class="ic" style="left:2%;top:28%" data-app="tm"><big>📊</big>Task Manager</div>
+ <div class="ic" style="left:2%;top:52%" data-app="web"><big>🌐</big>Browser</div>
+ <div class="ic" style="left:12%;top:4%" data-app="files"><big>📁</big>Files</div>
+ <div class="ic" style="left:12%;top:28%" data-app="lessons"><big>📚</big>Lessons List</div>
+ <div class="ic" style="left:12%;top:52%" data-app="router"><big>📡</big>Router</div>
+ <div class="ic" style="left:2%;top:76%" data-app="cmd"><big>⌨️</big>Command Prompt</div>
+ <div class="ic" style="left:12%;top:76%" data-app="rec"><big>🛟</big>Repair Mode</div>
+ <div class="ic" style="left:85%;top:40%" data-app="case"><big>🧰</big>PC Case</div>
+ <div class="ic" style="left:85%;top:64%" data-app="mon"><big>🖥️</big>Monitor</div>
+ <div id="tk"></div>
+ <div id="wins"></div>
+ <div id="bar"><span>⊞</span><span id="apps"></span><span class="tray"><span id="net">📶</span><span id="busy">Busy 6%</span><span>10:42 AM</span></span></div>
+ <div id="toast"></div>
+</div></div>
+<button id="exit" aria-label="Exit simulator"><b>✕</b>EXIT</button>
+<div class="cover" id="rot"><i>📱</i><h1>ROTATE YOUR PHONE</h1><p>This simulator is a computer desktop, so it needs a wide screen. Turn your phone sideways. If it will not turn, switch off your phone's rotation lock.</p></div>
+<div class="cover" id="start"><h1>TECHFIX DESKTOP</h1><p>You are the tech helper. Fix each problem by using the apps on this computer, just like a real desktop. Tap to start. The game goes full screen and sideways.</p><button class="btn" id="go" style="font-size:12px">▶ START</button></div>
+<script type="module" src="js/desk-firebase.js"></script>
+<script src="js/desk.js"></script>
+<script src="js/desk-quiz.js"></script>
+</body>
+</html>
